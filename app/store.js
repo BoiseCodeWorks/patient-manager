@@ -1,4 +1,6 @@
 import Patient from './models/patient.js'
+import PatientsView from './views/patients.js'
+
 
 let $store;
 //Gathering place for all data
@@ -18,6 +20,9 @@ export default class Store {
         new Patient("Terry", 1234567891)
       ]
     };
+
+    this.view = new PatientsView()
+
   }
 
 }

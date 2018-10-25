@@ -3,7 +3,6 @@ import Store from "../store.js";
 export default class PatientList {
   constructor() {
     this.$store = new Store()
-    this.draw();
   }
 
   draw() {
@@ -12,8 +11,8 @@ export default class PatientList {
       patientListTemplate += `<li>${this.$store.state.patients[i].name}</li>`
     }
 
-    document.getElementById("app").innerHTML = `
-    <div>
+    return `
+    <div class="patient-list">
       <h1>My Patients</h1>
       <ul>
         ${patientListTemplate}

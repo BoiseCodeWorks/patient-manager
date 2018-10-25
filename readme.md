@@ -65,3 +65,5 @@ In this application we will work with https://rxnav.nlm.nih.gov/ as a `JSON REST
 08 - PatientListComponent
 09 - Patients from StoreData
 10 - HTML Templates
+11 - Preparing for Views
+12 - Our First View
