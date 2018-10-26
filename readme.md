@@ -67,3 +67,12 @@ In this application we will work with https://rxnav.nlm.nih.gov/ as a `JSON REST
 10. HTML Templates
 11. Preparing for Views
 12. Our First View
+13. New Patient Component
+14. Basic Events
+15. Events and Statics
+16. FormData
+17. Passing FormData to the Store
+18. The Disconnect
+19. Using get
+20. Using set
+21. Breaking references

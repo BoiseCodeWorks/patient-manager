@@ -1,13 +1,14 @@
 //Entry Point
 import Store from './store.js';
-import NewPatient from './components/new-patient.js';
+import NewPatientForm from './components/new-patient-form.js';
 
 let $store = new Store();
 
+$store.view.render()
+
 window['app'] = {
   $store,
-  components: {
-    NewPatient
+  statics: {
+    NewPatientForm
   }
 }
-$store.view.render()
